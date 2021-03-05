@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Subject from './components/subject';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Hi, I'm a React App</h1>
+      <Subject title="Web App Development 2" year="Year 3" lecturer="Rosanne Birney">
+        Read more about this subject...
+      </Subject>
+      <Subject title="NoSQL Databases" year="Year 3" lecturer="T.J. McDonald">
+        Read more about this subject...
+      </Subject>
+      <Subject title="Digital Graphic Design" year="Year 3" lecturer="Sinead O' Riordan">
+        Read more about this subject...
+      </Subject>
     </div>
   );
 }
