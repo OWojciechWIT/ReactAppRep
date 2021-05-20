@@ -1,0 +1,8 @@
+{
+    "env": {
+        "DB_USER": "pizzapal",
+        "DB_PASSWORD": "pepperoni",
+        "DB_NAME": "pizzapal",
+        "JWT_KEY": "very_secret_private_key"
+    }
+}
